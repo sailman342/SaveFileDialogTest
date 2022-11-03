@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FileIOLib.SaveFileDialogPage"
+             Title="SaveFileDialog"
+             WidthRequest="400"
+             HeightRequest="450"
+             NavigationPage.HasNavigationBar="False"
+             NavigationPage.HasBackButton="False"
+             >
+    <Grid RowDefinitions="50,10, 50, 50, 10, 50, 50, 10, 50, 10, 50, 10 , 50">
+        <Label x:Name="TitleLabel" Grid.Row="0" HorizontalTextAlignment="Center" />
+        <Label Text="Nom du fichier y.c. extension" Grid.Row="2" VerticalTextAlignment="End"/>
+        <Entry x:Name="FileNameEntry" Grid.Row="3" Placeholder="blabla.txt" Completed="FileNameEntryCompleted" VerticalTextAlignment="Start" />
+        <Label Text="Chemin du dossier" Grid.Row="5" VerticalTextAlignment="End"/>
+        <Label x:Name="FolderNameLabel" Grid.Row="6"  VerticalTextAlignment="Start"/>
+        <Button x:Name="SelectFolderButton" Grid.Row="8" Text="Choisir un dossier" Clicked="SelectFolderButtonClicked"/>
+        <Button x:Name="SaveButton" Grid.Row="10" Text="Sauver" Clicked="SaveButtonClicked" />
+        <Button x:Name="CancelButton" Grid.Row="12" Text="Annuler" Clicked="CancelButtonClicked" />
+    </Grid>
+</ContentPage>

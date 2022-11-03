@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31611.283
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SaveFileDialogTest", "SaveFileDialogTest\SaveFileDialogTest.csproj", "{28DB3CB4-3D8E-4A3E-AD5C-37C9E222B166}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileIOLib", "FileIOLib\FileIOLib.csproj", "{2006D2D9-9619-4A26-A631-92C293A7762E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28DB3CB4-3D8E-4A3E-AD5C-37C9E222B166}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28DB3CB4-3D8E-4A3E-AD5C-37C9E222B166}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28DB3CB4-3D8E-4A3E-AD5C-37C9E222B166}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{28DB3CB4-3D8E-4A3E-AD5C-37C9E222B166}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28DB3CB4-3D8E-4A3E-AD5C-37C9E222B166}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28DB3CB4-3D8E-4A3E-AD5C-37C9E222B166}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{2006D2D9-9619-4A26-A631-92C293A7762E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2006D2D9-9619-4A26-A631-92C293A7762E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2006D2D9-9619-4A26-A631-92C293A7762E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2006D2D9-9619-4A26-A631-92C293A7762E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {61F7FB11-1E47-470C-91E2-47F8143E1572}
+	EndGlobalSection
+EndGlobal
